@@ -4,11 +4,34 @@
     </head>
     <body>
         <p id="demo"></p>
+        <p id="result"></p>
+        <p id="result1"></p>
+        <p id="result2"></p>
+        <p id="result3"></p>
         <script>
             //my heading
             document.getElementById("demo").
             innerHTML="hello i am from javascript"
-            document.write=("head");
+            document.write=("hello");
+            var d,e,f;
+            d=25;
+            e=13;
+            f=d-e;
+            document.getElementById("result3").innerHTML="the difference of 25,13, and 12 is:"+f;
+            var a=5;
+            var b=10;
+            var c=a+b;
+            document.getElementById("result").innerHTML="the sum of 5 and 10 is:"+c;
+            var m,n,o;
+            m=20;
+            n=10;
+            o=m/n;
+            document.getElementById("result2").innerHTML="the quotient of 20 and 10 is:"+o;
+            var x,y,z;
+            x=15
+            y=25
+            z=x*y;
+            document.getElementById("result1").innerHTML="the product of 25 amd 15 is:"+z;
         </script>
     </body>
 </html>
