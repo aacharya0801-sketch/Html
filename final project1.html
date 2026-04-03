@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<style>
+body {
+
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+font-family: 'Roboto Slab', serif;
+
+}
+
+.about {
+
+background-color: rgba(0, 0, 0, 0.6);
+
+border-radius: 15px;
+
+margin-top: 50px;
+
+}
+
+.m-heading {
+
+font-size: 2.5rem;
+
+font-weight: 700;
+
+margin: 20px 0;
+
+}
+
+.btn-outline-warning {
+
+border-width: 2px;
+
+font-weight: 600;
+
+padding: 10px 30px;
+
+transition: all 0.3s ease;
+
+}
+
+.btn-outline-warning:hover {
+
+background-color: #ffc107;
+
+transform: scale(1.05);
+
+}
+</style>
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+<link rel="stylesheet" href="style.css" />
+
+<script src="https://kit.fontawesome.com/996973c893.js">
+
+</script>
+
+<link
+
+href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+
+rel="stylesheet" />
+
+<title>My Portfolio</title>
+
+</head>
+<body>
+    <div id="about" class="container about p-5">
+        <div class="row">
+            <div class="col-6">
+                <img src="data:image/webp;base64,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" height="250px" weight="250px" class="img-fluid"
+            <div class="col-6 pl-5 pt-5 pb-5 text-white">
+                <h3 class="text-warning">About Codingal</h3>
+                <h1 class="m-heading">A little bit about me</h1>
+                <p>
+                    <b class="text-warning">Codingal</b> is on a mission to inspire school kids to <b class="text-warning">fall in love with coding</b>. Coding helps develop logical thinking and problem-solving skills. Coding jobs are the future. They already constitute more than 60% of all the jobs in Science, Technology, Engineering, and Math. While still in school, those who start young will be ahead of everyone by the time they get into college. They will be <b class="text-warning">creators of the future</b>.
+
+</p>
+<br />
+<p> In today's age, <b class="text-warning">coding</b> has become an essential skill. Coding for kids them interact with technology better. Studies also show that it aids in holistic development of the child, improving cognitive fnctioning as well as logical thinking. <b class="text-warning">Holostic development</b>means evolving cognitive, physical, and social skills of a child to prepare them better for the interaction with the world. Coding as an activity not only involves mental development but also social understanding.</p>
+                </p>
+                <button class="btn btn-outline-warning">Learn More</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
