@@ -1,0 +1,5 @@
+print("hello world")
+print(123)
+print("123")
+print("15"+"25")
+print(15+25)
